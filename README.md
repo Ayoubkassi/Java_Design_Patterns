@@ -145,4 +145,16 @@ ___
 * compostion allows for code reuse from final classes
 	* impossible with inheritance because you cannot extend a final class in java
 
-  
+---
+
+## The Single Responsability Principle
+
+* **should make sure that one classat at the most is responsible for doing one task or functionality**
+* the single responsablity principle is closely related to the concepts of cohesion and coupling
+* low coupling means small dependenies between classes/methodes
+* low cohesion means that the class does a great variety of actions
+
+
+
+
+
