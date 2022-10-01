@@ -74,4 +74,48 @@ ___
 	* breaks easily
 	* hard to maintain (adding new feautues or doing basuc bug fixing)
 
-	
+
+--- 
+
+### Introduction to some main concept of computer science
+
+> always favor interface over implementation that can be achieve by the abstarct class or the interface and polymorphism
+
+
+Polymorphism
+---
+
+* I know this is probably redundant, but just to make sure we are on the same page , imagine an abstract class Animal , with two concrete implementations , Dog and Cat .
+
+* programing to an implemntation would be :
+
+Dog d = new Dog();
+d.bark();
+
+* declaring the variable **d** as type Dog forces us to code a concrete implementation
+
+
+* programing to an interface/supertype would be:
+	Animal animal = new Dog();
+	animal.makeSound();
+
+
+
+<span style="color:blue">from **java8** the gap between using abstract class or interface has been reduced by **default mthods**</span>.
+
+* variables in interfaces are public static final
+	* abstarct class can have other acces modifiers for variables (private , protected, etc)
+
+	* also for methods
+
+* utilize abstract classes to establish a relationship between interrelated objects
+	* when u want to share code among several closely related classes then this common state or behavior can be put in the abstract class
+
+* utilize interfaces to establish a relationship between unrelated classes
+
+* utilize interface if u want to take advantage of multiple inheritance
+
+* **one is not better than the other**
+
+* u may create an interface and then have an abstract class implement that interface 
+
