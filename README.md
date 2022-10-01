@@ -101,7 +101,7 @@ d.bark();
 
 
 
-<span style="color:blue">from **java8** the gap between using abstract class or interface has been reduced by **default mthods**</span>.
+> from **java8** the gap between using abstract class or interface has been reduced by **default mthods**.
 
 * variables in interfaces are public static final
 	* abstarct class can have other acces modifiers for variables (private , protected, etc)
@@ -119,3 +119,30 @@ d.bark();
 
 * u may create an interface and then have an abstract class implement that interface 
 
+
+## Composition 
+___
+
+**Composition is referred to HAS-A relationship between classes in Object Oriented Design**
+
+## Aggregation
+___
+
+**Aggregartion is referred to HAS-A relationship between objects and is closely related to composition**
+
+> The main difference is that in aggregation the child can exist independently of the parent
+
+### Composition Over Inheritance 
+
+* favoring object composition over class inheritance helps u keep each class encapsulated and focused on one task
+* inheritance breaks encapsulation because sub classes are dependent upon the base class behavior
+
+* most design patterns favor Composition over Inheritance 
+	* Strategy
+	* Decorator
+	* if design patterns use composition then that means it has been tried and tested
+
+* compostion allows for code reuse from final classes
+	* impossible with inheritance because you cannot extend a final class in java
+
+  
