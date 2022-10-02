@@ -218,3 +218,10 @@ ___
 
 
 
+## Dependency Injection
+
+* if a java class creates an instance of another class via the new operator , it cannot be used (tested) independently from this class
+	* this called a hard dependency
+
+* dpendency injection solves these "hard" dependencies
+
