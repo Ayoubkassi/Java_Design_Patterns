@@ -189,3 +189,17 @@ ___
 	```
 
 
+## The Interface Segregation Principle 
+
+**Client should not be forced to depend upon interfaces that that they dont use**
+
+* Happens mostly when a client is dependent on interface and in just only one functionality and none all the others
+
+* The goal of interface segregation principale is to reduce the side effects and frequency of required changes by splitting the software into multiple 	, independent parts
+
+* so if u follow this principe in java (interface) , you will implement less methods because each interface will have single functionality
+
+* the principe is refactoring fat interface into multiple sagregated interfaces 
+	* each sagredated interface contains methods which are required to a specific client
+
+
