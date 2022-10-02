@@ -154,7 +154,38 @@ ___
 * low coupling means small dependenies between classes/methodes
 * low cohesion means that the class does a great variety of actions
 
+## Open Closed Principle
 
+* classes and methodes should be open for extensions (new functionality) and closed for modification
+* a class should be easily extensible without modifying the existing code
+* interfaces are closed for modifications
 
+## The Liskov Substitution Principle
+
+* the principe defines that that object of a super class can be replaced with objects of subclasses without breaking the application
+
+* this principle extends the Open Closed Principle 
+* Simple Example is Ellipse and circle , we have super class is ellipse so we know that every circle is just a particular type of ellipse , so we will have super class ellipse and sub class circle 
+	* e.g.
+	```java
+		public abstract class Ellipse{
+			abstract int getArea();
+			abstract int[] getCordinate();
+
+			//so here for tests we could do
+
+			Ellipse ellipse = new Circle();
+			Ellipse.getArea();
+
+		}
+
+		class Circle extends Ellipse{
+			@Override
+			int getArea(){
+				return 1;
+			}
+		}
+
+	```
 
 

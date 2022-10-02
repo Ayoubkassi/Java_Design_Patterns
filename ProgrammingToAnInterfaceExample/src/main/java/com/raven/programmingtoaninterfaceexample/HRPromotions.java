@@ -9,5 +9,8 @@ package com.raven.programmingtoaninterfaceexample;
  * @author ryota
  */
 public class HRPromotions {
-    
+    public boolean isPromotionDueThisYear(Employee emp){
+        //promotion logic
+        return true;
+    }
 }
