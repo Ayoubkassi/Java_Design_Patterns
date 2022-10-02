@@ -202,4 +202,19 @@ ___
 * the principe is refactoring fat interface into multiple sagregated interfaces 
 	* each sagredated interface contains methods which are required to a specific client
 
+## Dependency Inversion
+
+* **The goal is to reduce dependencies on concrete classes**
+* Hight Level classes should not depend on the low level classes
+	* both hight level classes and low level should depend upon abstractions
+
+* let's say we want to implement pizza store
+	* what's the first tought that pops into your head?
+
+* start at the top and follow things down to reduce the concrete classes
+* let's invert ur thinking 
+	* instead at the top , start at the pizzas and think about what u can abstarct 
+	* pizza is the abstraction
+
+
 
