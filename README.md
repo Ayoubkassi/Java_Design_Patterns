@@ -225,3 +225,17 @@ ___
 
 * dpendency injection solves these "hard" dependencies
 
+
+---
+---
+
+# Creational Pattern
+
+**This pattern help us create new objects without using the new operator there is a lot of methods**
+
+* Factory
+* Abstract Factory
+* Builder
+* Singleton
+* Prototype
+
