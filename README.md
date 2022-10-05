@@ -239,3 +239,20 @@ ___
 * Singleton
 * Prototype
 
+
+## Factory Design Pattern 
+
+**as we were saying factory is a cretional design pattern and he is one of the most used design patterns in java**
+
+* This pattern define an interface to define an object
+* when a class needs to instanstiate a subclass of another class but , doesn't know how
+* the factory method is used in a lot of frameworks
+* frameworks use always abstarct classes
+ 
+Example : 
+
+* suppose u have two different type of televisions one with a led screen and another with lcd screen , if either of tvs strat mallfunctioning u must call a tv repairing , but the repair man must know which type of tv he will fix first , and in dependent on ur input he will bring diffrent requirements
+
+
+
+
