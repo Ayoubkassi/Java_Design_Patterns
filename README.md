@@ -168,6 +168,8 @@ abstarct class Logan extends Car{
 
 //and so one but finally one class which is the mean class will extend all those classes
 
+//and also we can have concept of polymorphism where we can create variable from the base one to have an implementation code .
+
 
 ```
 
