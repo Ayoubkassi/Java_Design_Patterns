@@ -82,6 +82,49 @@ ___
 > always favor interface over implementation that can be achieve by the abstarct class or the interface and polymorphism
 
 
+Inheritance (IS-A) Relationship
+Association (Has-a/part-of) relationships
+polymorphism (overriding/overloading)
+
+those 3 concepts are necessary for code reysability
+
+but other concepts as :
+
+Data hiding (priavte: access modifiers)
+encapsulation -> add setters and getters
+and the class that apply encapsulation is called "tighly encapsulated" means attributes are private and we do have setters and getters
+
+those 3 concept good for Security
+
+abstraction : combine both of them -> code reusability and security
+
+
+Abstarction : hiding internal implementaion to users and ony show the functionality
+
+as in facebook instagram u don't know how is it working , all u know is that u enter username and pasword and u loged in
+also as third party API , as paypal stripe ...
+
+Types of abstraction :
+	-Data abstraction
+	-Control abstraction
+
+ways to achieve abstarction : 
+	-abstarct class
+	-interface
+
+abstract classes present 100% of abstraction also as interfaces (default methods)
+
+abstarct classs allow us to craete blue prints for the concrete classes
+
+abstract class contains at least one abstract method
+
+abstarct classs can have static and constructor method
+
+abstract class can be extended
+
+abstarct class can have final methods
+
+
 Polymorphism
 ---
 
