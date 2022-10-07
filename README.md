@@ -124,6 +124,52 @@ abstract class can be extended
 
 abstarct class can have final methods
 
+**Good example to devide the work in the company**
+let's say that we are a company that produce cars and we do have a base module car for example Dacia , and from this car we can create 
+3 other sub cars , Sandero , Logan and Megan so we will have one based classes which is abstract class that have the blueprints for our concrete classes
+
+```java
+
+abstract class Car{
+	int speed;
+	float price;
+	String model;
+	
+	//here we define our setters and getters
+	int getSpeed(){
+		return speed;
+	}
+	
+	//we can have a constructor of course
+	Car(){
+		//a new car just craeted
+	}
+	
+	//here we can have abstract and non abstract method also static and final methods
+	
+	abstract void autoPilot();
+	abstract void parkingAutomatic();
+	abstarct void cameraPark();
+	
+}
+
+//let's tell that for example Ayoub is the one how has to implement the method autopilot but just one and none others for Logan Car
+
+abstarct class Logan extends Car{
+	
+	@Override
+	void autoPilot(){
+		//retrun pilotAutomatic;
+	}
+	
+	abstract void parkingAutomatic();
+	abstarct void cameraPark(); 
+}
+
+//and so one but finally one class which is the mean class will extend all those classes
+
+
+```
 
 Polymorphism
 ---
