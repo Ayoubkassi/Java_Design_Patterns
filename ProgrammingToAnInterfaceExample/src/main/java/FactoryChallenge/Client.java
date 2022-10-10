@@ -11,10 +11,14 @@ package FactoryChallenge;
 public class Client {
     
     
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception{
         System.out.println("Hey Hey and welcome again");
         
-        Animal animal1 = AnimalFactory.getAnimal("Duck");
+        //craete object factory
+        ConcreteFactory concreteFactory = new ConcreteFactory();
+        Animal animal1 = concreteFactory.getAnimalType("Duck");
         animal1.walk();
+        
+        
     }
 }
